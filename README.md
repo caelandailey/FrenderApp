@@ -5,9 +5,11 @@ Personal Project. Music festival social media application written in Swift.
 - Facebook Login
 - Google Login
 - Login animation
-- Loads images from firebase database
-- Loads festival list from firebase database
-- Real time chat
+- Loads festival list from firebase database 
+- Loads images from firebase database into table
+- Images go to the festival event page
+- Search festivals
+- Real time chat (Not shown in GIF)
 
 # Future features
 - Design festival pages
