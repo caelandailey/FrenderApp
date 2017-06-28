@@ -6,40 +6,32 @@
 //  Copyright © 2017 Caelan Dailey. All rights reserved.
 //
 
-import UIKit
 import Firebase
 import FacebookLogin
 import FBSDKLoginKit
 import GoogleSignIn
 import JTMaterialTransition
-
+import UIKit
 
 class LoginViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDelegate{
 
-    @IBOutlet weak var skipButton: UIButton!
-    @IBOutlet weak var googleButton: GIDSignInButton!
     @IBOutlet weak var findButton: UIButton!
     @IBOutlet weak var FacebookButton: FBSDKLoginButton!
+    @IBOutlet weak var googleButton: GIDSignInButton!
+    @IBOutlet weak var skipButton: UIButton!
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
-        print("Inside login button")
         
         if (FBSDKAccessToken.current()) != nil {
             
-       
                 let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
                 Auth.auth().signIn(with: credential) { (user, error) in
-                    // ...
                     if let error = error {
                         print(error)
                         return
                     }
-                    print("Signed into Firebase with facebook")
-                    
                 }
-        
-        }
-        
+        } 
     }
     
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
@@ -54,9 +46,6 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignIn
     @IBAction func skipLogin()
     {
         goToMainView()
-        
-        
-        
     }
     
     func goToMainView()
@@ -77,23 +66,11 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignIn
     
     func loginUser(email: String, password: String)
     {
-        // 2
         Auth.auth().signIn(withEmail: email,
                                password: password){ user, error in
                                 if error == nil {
-                                    
-                                    print("User signed in")
-                                    // Signed in
-                                    // 3
-                                    Auth.auth().signIn(withEmail: email,
-                                                           password: email)
-                                    
-                                   
-                                    
-                                    
-                                }
-                                else
-                                {
+                                    Auth.auth().signIn(withEmail: email, password: email)
+                                } else {
                                     print("Could NOT sign in. Error!")
                                     print(error ?? "Issue with error")
                                 }
@@ -101,28 +78,24 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignIn
         }
     }
 
-    
     // Once the button is clicked, show the login dialog
     @objc func loginButtonClicked() {
-        print("Facebook login button clicked")
+        
         let loginManager = LoginManager()
         loginManager.logIn([ .publicProfile, .custom("user_birthday"),.custom("user_hometown") ], viewController: self) { loginResult in
             switch loginResult {
+                
             case .failed(let error):
                 print(error)
             case .cancelled:
                 print("User cancelled login.")
             case .success(let grantedPermissions, let declinedPermissions, let accessToken):
-                print("Logged in!")
                 let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
                 Auth.auth().signIn(with: credential) { (user, error) in
-                    // ...
                     if let error = error {
                         print(error)
                         return
                     }
-                    print("Logged into facebook")
-                   
                 }
             }
         }
@@ -133,16 +106,12 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignIn
     }
     
     // Present a view that prompts the user to sign in with Google
-    func sign(_ signIn: GIDSignIn!,
-              present viewController: UIViewController!) {
+    func sign(_ signIn: GIDSignIn!, present viewController: UIViewController!) {
         self.present(viewController, animated: true, completion: nil)
-        //print("Sign in presented")
     }
     // Dismiss the "Sign in with Google" view
-    func sign(_ signIn: GIDSignIn!,
-              dismiss viewController: UIViewController!) {
+    func sign(_ signIn: GIDSignIn!, dismiss viewController: UIViewController!) {
         self.dismiss(animated: true, completion: nil)
-        // print("Sign in dismissed")
     }
 
 
@@ -150,6 +119,7 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignIn
     func signIn(signIn: GIDSignIn!, didDisconnectWithUser user: GIDGoogleUser!, withError error: NSError!){
         
     }
+    
     func customizeUI()
     {
         skipButton.layer.cornerRadius = 5;
@@ -170,11 +140,10 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignIn
         FacebookButton.layer.shadowOpacity = 1.0
         FacebookButton.layer.shadowRadius = 0.0
         FacebookButton.layer.masksToBounds = false
-     
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent //or default
+        return .lightContent 
     }
     
     func addUser(){
