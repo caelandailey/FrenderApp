@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38035ADD1EE35BD60064D9C8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38035ADC1EE35BD60064D9C8 /* IntroViewController.swift */; };
+		383978EA1EE3758C004FFD1D /* gradiant1.png in Resources */ = {isa = PBXBuildFile; fileRef = 383978E91EE3758C004FFD1D /* gradiant1.png */; };
+		383978EC1EE3932D004FFD1D /* facebook_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 383978EB1EE3932D004FFD1D /* facebook_icon.png */; };
+		383978F01EE3965E004FFD1D /* google_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 383978EF1EE3965E004FFD1D /* google_icon.png */; };
+		385486DB1EE10310006BF51D /* edc_test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 385486D91EE10310006BF51D /* edc_test3.jpg */; };
+		385486DC1EE10310006BF51D /* edc_test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 385486DA1EE10310006BF51D /* edc_test1.jpg */; };
+		385486DE1EE103B5006BF51D /* gra1.png in Resources */ = {isa = PBXBuildFile; fileRef = 385486DD1EE103B5006BF51D /* gra1.png */; };
+		385486E01EE1047E006BF51D /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 385486DF1EE1047E006BF51D /* test1.png */; };
+		385486E21EE104EF006BF51D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385486E11EE104EF006BF51D /* TestViewController.swift */; };
+		385486E41EE10582006BF51D /* lolla2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 385486E31EE10582006BF51D /* lolla2.jpg */; };
+		386090161EB542B4004226BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386090151EB542B4004226BB /* AppDelegate.swift */; };
+		386090181EB542B4004226BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386090171EB542B4004226BB /* LoginViewController.swift */; };
+		3860901B1EB542B4004226BB /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386090191EB542B4004226BB /* LoginView.storyboard */; };
+		3860901D1EB542B4004226BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3860901C1EB542B4004226BB /* Assets.xcassets */; };
+		386090201EB542B4004226BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3860901E1EB542B4004226BB /* LaunchScreen.storyboard */; };
+		3860902B1EB542B4004226BB /* frenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860902A1EB542B4004226BB /* frenderTests.swift */; };
+		386090361EB542B4004226BB /* frenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386090351EB542B4004226BB /* frenderUITests.swift */; };
+		386090441EB547E0004226BB /* festival_Front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 386090431EB547E0004226BB /* festival_Front.jpg */; };
+		386090461ECD2E3F004226BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 386090451ECD2E3F004226BB /* GoogleService-Info.plist */; };
+		386090491ECE7D05004226BB /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386090481ECE7D05004226BB /* MainView.storyboard */; };
+		3860904F1ECFCDA6004226BB /* EventView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3860904E1ECFCDA6004226BB /* EventView.storyboard */; };
+		386090511ECFCDB3004226BB /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386090501ECFCDB3004226BB /* EventViewController.swift */; };
+		38A629AD1EEDA7AB003E57BD /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A629AC1EEDA7AB003E57BD /* GroupViewController.swift */; };
+		38A9FAF71EDBB6F800D241A8 /* icon_group2.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FAF51EDBB6F800D241A8 /* icon_group2.png */; };
+		38A9FAF81EDBB6F800D241A8 /* individual-icon-17729.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FAF61EDBB6F800D241A8 /* individual-icon-17729.png */; };
+		38A9FAFC1EDBBB3100D241A8 /* icon_options.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FAFB1EDBBB3100D241A8 /* icon_options.png */; };
+		38A9FAFF1EDBBBE900D241A8 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FAFE1EDBBBE900D241A8 /* test.png */; };
+		38A9FB031EDBC2C300D241A8 /* icon_notif.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB001EDBC2C300D241A8 /* icon_notif.png */; };
+		38A9FB041EDBC2C300D241A8 /* icon_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB011EDBC2C300D241A8 /* icon_home.png */; };
+		38A9FB051EDBC2C300D241A8 /* icon_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB021EDBC2C300D241A8 /* icon_profile.png */; };
+		38A9FB071EDBC39F00D241A8 /* icon_bluecircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB061EDBC39F00D241A8 /* icon_bluecircle.png */; };
+		38A9FB091EDBC4B200D241A8 /* icon_options_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB081EDBC4B200D241A8 /* icon_options_white.png */; };
+		38A9FB0B1EDBC5C000D241A8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9FB0A1EDBC5C000D241A8 /* MainViewController.swift */; };
+		38A9FB0D1EDCCB3400D241A8 /* EventItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9FB0C1EDCCB3400D241A8 /* EventItem.swift */; };
+		38A9FB101EDCEA7B00D241A8 /* MainViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9FB0F1EDCEA7B00D241A8 /* MainViewTableCell.swift */; };
+		38A9FB121EDF776F00D241A8 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9FB111EDF776F00D241A8 /* MainMenuViewController.swift */; };
+		38A9FB171EDF788000D241A8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A9FB161EDF788000D241A8 /* SWRevealViewController.m */; };
+		38A9FB1F1EDF944300D241A8 /* icon_options_white30.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB1E1EDF944300D241A8 /* icon_options_white30.png */; };
+		38A9FB211EDF976F00D241A8 /* profile_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB201EDF976F00D241A8 /* profile_pic.png */; };
+		38A9FB241EDFA43800D241A8 /* Circled Female User-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB231EDFA43800D241A8 /* Circled Female User-50.png */; };
+		38A9FB261EDFA46C00D241A8 /* Message-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB251EDFA46C00D241A8 /* Message-50.png */; };
+		38A9FB291EDFACEF00D241A8 /* googlelogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB271EDFACEF00D241A8 /* googlelogin.png */; };
+		38A9FB2A1EDFACEF00D241A8 /* fbpic.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB281EDFACEF00D241A8 /* fbpic.png */; };
+		38A9FB2C1EDFB03C00D241A8 /* TestLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9FB2B1EDFB03C00D241A8 /* TestLoginView.swift */; };
+		38A9FB2F1EE0E6D200D241A8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9FB2E1EE0E6D200D241A8 /* ChatViewController.swift */; };
+		38A9FB311EE0E70C00D241A8 /* ChatView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB301EE0E70C00D241A8 /* ChatView.storyboard */; };
+		38B2CAB31ED14D13009814DE /* crowd2_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38B2CAB11ED14D13009814DE /* crowd2_blur.jpg */; };
+		38B2CAB41ED14D13009814DE /* crowd1_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38B2CAB21ED14D13009814DE /* crowd1_blur.jpg */; };
+		38B2CAB61ED14E37009814DE /* festival_Front_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38B2CAB51ED14E37009814DE /* festival_Front_blur.jpg */; };
+		38B2CAB81ED912E2009814DE /* camp2_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38B2CAB71ED912E2009814DE /* camp2_blur.jpg */; };
+		38B2CABA1ED91451009814DE /* fam2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38B2CAB91ED91451009814DE /* fam2.jpg */; };
+		38B2CABD1ED91AC2009814DE /* Anja Eliane accent002.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38B2CABC1ED916A7009814DE /* Anja Eliane accent002.ttf */; };
+		38E878B01EE3A278002167BB /* Dense-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38A9FB221EDF982300D241A8 /* Dense-Regular.otf */; };
+		38E878B11EE3A278002167BB /* Knile-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38E878AE1EE3A200002167BB /* Knile-Regular.otf */; };
+		38E878B31EE3A2BF002167BB /* Peace Sans.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38E878B21EE3A2B6002167BB /* Peace Sans.otf */; };
+		38E878B71EE3AB62002167BB /* ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E878B61EE3AB62002167BB /* ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png */; };
+		38E878B91EE3AD08002167BB /* tsesttst.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E878B81EE3AD08002167BB /* tsesttst.png */; };
+		38E878BB1EE50409002167BB /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E878BA1EE50409002167BB /* UIImage+Gif.swift */; };
+		38E878F91EEC7A5F002167BB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E878F81EEC7A5F002167BB /* ProfileViewController.swift */; };
+		38E878FB1EEC7A6E002167BB /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E878FA1EEC7A6E002167BB /* ProfileView.storyboard */; };
+		38E878FE1EEC7A94002167BB /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E878FD1EEC7A94002167BB /* NotificationsViewController.swift */; };
+		38E879001EEC7AA4002167BB /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E878FF1EEC7AA4002167BB /* NotificationsView.swift */; };
+		38E879031EEC7AC4002167BB /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E879021EEC7AC4002167BB /* CreateGroupViewController.swift */; };
+		38E879081EEC84D6002167BB /* profile_testpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E879071EEC84D6002167BB /* profile_testpic.jpg */; };
+		38E8790A1EECE8FB002167BB /* GroupView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E879091EECE8FB002167BB /* GroupView.storyboard */; };
+		38E8790C1EECEA37002167BB /* icon_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E8790B1EECEA37002167BB /* icon_camera.png */; };
+		781998C96E88B2B31BF7683B /* Pods_frender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA0389BECC4135FCEEC0CD2 /* Pods_frender.framework */; };
+		EF49D1F38E4B35DF657CF22C /* Pods_frenderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD3A4A5D51A5B254966C26 /* Pods_frenderUITests.framework */; };
+		F46292788A8A37E371A849D0 /* Pods_frenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2E983FC295905DAA0E9538 /* Pods_frenderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		386090271EB542B4004226BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3860900A1EB542B3004226BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386090111EB542B4004226BB;
+			remoteInfo = frender;
+		};
+		386090321EB542B4004226BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3860900A1EB542B3004226BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386090111EB542B4004226BB;
+			remoteInfo = frender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10C1DEA7917E731473BB91EC /* Pods-frender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frender.release.xcconfig"; path = "Pods/Target Support Files/Pods-frender/Pods-frender.release.xcconfig"; sourceTree = "<group>"; };
+		1BAD3A4A5D51A5B254966C26 /* Pods_frenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38035ADC1EE35BD60064D9C8 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		381258241EECEDA40044CDF1 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		381258251EECEDA40044CDF1 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		383978E91EE3758C004FFD1D /* gradiant1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradiant1.png; sourceTree = "<group>"; };
+		383978EB1EE3932D004FFD1D /* facebook_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_icon.png; sourceTree = "<group>"; };
+		383978EF1EE3965E004FFD1D /* google_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_icon.png; sourceTree = "<group>"; };
+		385486D91EE10310006BF51D /* edc_test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = edc_test3.jpg; sourceTree = "<group>"; };
+		385486DA1EE10310006BF51D /* edc_test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = edc_test1.jpg; sourceTree = "<group>"; };
+		385486DD1EE103B5006BF51D /* gra1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gra1.png; sourceTree = "<group>"; };
+		385486DF1EE1047E006BF51D /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
+		385486E11EE104EF006BF51D /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		385486E31EE10582006BF51D /* lolla2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lolla2.jpg; sourceTree = "<group>"; };
+		386090121EB542B4004226BB /* frender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386090151EB542B4004226BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		386090171EB542B4004226BB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3860901A1EB542B4004226BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginView.storyboard; sourceTree = "<group>"; };
+		3860901C1EB542B4004226BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3860901F1EB542B4004226BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		386090211EB542B4004226BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386090261EB542B4004226BB /* frenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3860902A1EB542B4004226BB /* frenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenderTests.swift; sourceTree = "<group>"; };
+		3860902C1EB542B4004226BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386090311EB542B4004226BB /* frenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386090351EB542B4004226BB /* frenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenderUITests.swift; sourceTree = "<group>"; };
+		386090371EB542B4004226BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386090431EB547E0004226BB /* festival_Front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = festival_Front.jpg; sourceTree = "<group>"; };
+		386090451ECD2E3F004226BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		386090471ECE7085004226BB /* frender.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = frender.entitlements; sourceTree = "<group>"; };
+		386090481ECE7D05004226BB /* MainView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainView.storyboard; sourceTree = "<group>"; };
+		3860904E1ECFCDA6004226BB /* EventView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventView.storyboard; sourceTree = "<group>"; };
+		386090501ECFCDB3004226BB /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		38A629AC1EEDA7AB003E57BD /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		38A9FAF51EDBB6F800D241A8 /* icon_group2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_group2.png; sourceTree = "<group>"; };
+		38A9FAF61EDBB6F800D241A8 /* individual-icon-17729.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "individual-icon-17729.png"; sourceTree = "<group>"; };
+		38A9FAFB1EDBBB3100D241A8 /* icon_options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_options.png; sourceTree = "<group>"; };
+		38A9FAFE1EDBBBE900D241A8 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		38A9FB001EDBC2C300D241A8 /* icon_notif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_notif.png; sourceTree = "<group>"; };
+		38A9FB011EDBC2C300D241A8 /* icon_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home.png; sourceTree = "<group>"; };
+		38A9FB021EDBC2C300D241A8 /* icon_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_profile.png; sourceTree = "<group>"; };
+		38A9FB061EDBC39F00D241A8 /* icon_bluecircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bluecircle.png; sourceTree = "<group>"; };
+		38A9FB081EDBC4B200D241A8 /* icon_options_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_options_white.png; sourceTree = "<group>"; };
+		38A9FB0A1EDBC5C000D241A8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		38A9FB0C1EDCCB3400D241A8 /* EventItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventItem.swift; path = ../EventItem.swift; sourceTree = "<group>"; };
+		38A9FB0F1EDCEA7B00D241A8 /* MainViewTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewTableCell.swift; sourceTree = "<group>"; };
+		38A9FB111EDF776F00D241A8 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		38A9FB141EDF787F00D241A8 /* frender-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "frender-Bridging-Header.h"; sourceTree = "<group>"; };
+		38A9FB151EDF788000D241A8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		38A9FB161EDF788000D241A8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		38A9FB1E1EDF944300D241A8 /* icon_options_white30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_options_white30.png; sourceTree = "<group>"; };
+		38A9FB201EDF976F00D241A8 /* profile_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_pic.png; sourceTree = "<group>"; };
+		38A9FB221EDF982300D241A8 /* Dense-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dense-Regular.otf"; sourceTree = "<group>"; };
+		38A9FB231EDFA43800D241A8 /* Circled Female User-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circled Female User-50.png"; sourceTree = "<group>"; };
+		38A9FB251EDFA46C00D241A8 /* Message-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Message-50.png"; sourceTree = "<group>"; };
+		38A9FB271EDFACEF00D241A8 /* googlelogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googlelogin.png; sourceTree = "<group>"; };
+		38A9FB281EDFACEF00D241A8 /* fbpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbpic.png; sourceTree = "<group>"; };
+		38A9FB2B1EDFB03C00D241A8 /* TestLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestLoginView.swift; sourceTree = "<group>"; };
+		38A9FB2E1EE0E6D200D241A8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		38A9FB301EE0E70C00D241A8 /* ChatView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChatView.storyboard; sourceTree = "<group>"; };
+		38B2CAB11ED14D13009814DE /* crowd2_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crowd2_blur.jpg; sourceTree = "<group>"; };
+		38B2CAB21ED14D13009814DE /* crowd1_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crowd1_blur.jpg; sourceTree = "<group>"; };
+		38B2CAB51ED14E37009814DE /* festival_Front_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = festival_Front_blur.jpg; sourceTree = "<group>"; };
+		38B2CAB71ED912E2009814DE /* camp2_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camp2_blur.jpg; sourceTree = "<group>"; };
+		38B2CAB91ED91451009814DE /* fam2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fam2.jpg; sourceTree = "<group>"; };
+		38B2CABC1ED916A7009814DE /* Anja Eliane accent002.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anja Eliane accent002.ttf"; sourceTree = "<group>"; };
+		38E878AE1EE3A200002167BB /* Knile-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Knile-Regular.otf"; sourceTree = "<group>"; };
+		38E878B21EE3A2B6002167BB /* Peace Sans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Peace Sans.otf"; sourceTree = "<group>"; };
+		38E878B61EE3AB62002167BB /* ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png"; sourceTree = "<group>"; };
+		38E878B81EE3AD08002167BB /* tsesttst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tsesttst.png; path = ../../../Downloads/tsesttst.png; sourceTree = "<group>"; };
+		38E878BA1EE50409002167BB /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		38E878F81EEC7A5F002167BB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		38E878FA1EEC7A6E002167BB /* ProfileView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
+		38E878FD1EEC7A94002167BB /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		38E878FF1EEC7AA4002167BB /* NotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		38E879021EEC7AC4002167BB /* CreateGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		38E879071EEC84D6002167BB /* profile_testpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_testpic.jpg; sourceTree = "<group>"; };
+		38E879091EECE8FB002167BB /* GroupView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroupView.storyboard; sourceTree = "<group>"; };
+		38E8790B1EECEA37002167BB /* icon_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_camera.png; sourceTree = "<group>"; };
+		6DF9A37B6EE2F695410CB49F /* Pods-frender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-frender/Pods-frender.debug.xcconfig"; sourceTree = "<group>"; };
+		8889EA336E7158AB36D78AEC /* Pods-frenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frenderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-frenderTests/Pods-frenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		91BC273912DF9044234C4D41 /* Pods-frenderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frenderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-frenderUITests/Pods-frenderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA2E983FC295905DAA0E9538 /* Pods_frenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA0389BECC4135FCEEC0CD2 /* Pods_frender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1E4A4507469727900D6FA8 /* Pods-frenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frenderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-frenderTests/Pods-frenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEDFBF359F1A863607080AC5 /* Pods-frenderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frenderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-frenderUITests/Pods-frenderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3860900F1EB542B4004226BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781998C96E88B2B31BF7683B /* Pods_frender.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386090231EB542B4004226BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46292788A8A37E371A849D0 /* Pods_frenderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3860902E1EB542B4004226BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF49D1F38E4B35DF657CF22C /* Pods_frenderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381258261EECEDAC0044CDF1 /* FloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				381258241EECEDA40044CDF1 /* JVFloatLabeledTextField.h */,
+				381258251EECEDA40044CDF1 /* JVFloatLabeledTextView.h */,
+			);
+			name = FloatingTextField;
+			sourceTree = "<group>";
+		};
+		386090091EB542B3004226BB = {
+			isa = PBXGroup;
+			children = (
+				38A9FB0E1EDCCB6A00D241A8 /* Models */,
+				386090141EB542B4004226BB /* frender */,
+				386090291EB542B4004226BB /* frenderTests */,
+				386090341EB542B4004226BB /* frenderUITests */,
+				386090131EB542B4004226BB /* Products */,
+				E2D921341D647305638AD587 /* Pods */,
+				DD901D02FCF4A4A5140AF58B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		386090131EB542B4004226BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				386090121EB542B4004226BB /* frender.app */,
+				386090261EB542B4004226BB /* frenderTests.xctest */,
+				386090311EB542B4004226BB /* frenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		386090141EB542B4004226BB /* frender */ = {
+			isa = PBXGroup;
+			children = (
+				386090471ECE7085004226BB /* frender.entitlements */,
+				386090151EB542B4004226BB /* AppDelegate.swift */,
+				381258261EECEDAC0044CDF1 /* FloatingTextField */,
+				38E879061EEC7DB3002167BB /* Groups */,
+				38E879011EEC7AB0002167BB /* Notifications */,
+				38E878FC1EEC7A77002167BB /* Profile */,
+				38A9FB2D1EE0E6C000D241A8 /* Chat */,
+				386090521ECFCDBE004226BB /* Event */,
+				3860904D1ECE7DA2004226BB /* Main */,
+				3860904C1ECE7D98004226BB /* Login */,
+				3860901C1EB542B4004226BB /* Assets.xcassets */,
+				3860901E1EB542B4004226BB /* LaunchScreen.storyboard */,
+				386090451ECD2E3F004226BB /* GoogleService-Info.plist */,
+				386090211EB542B4004226BB /* Info.plist */,
+				38E878AF1EE3A205002167BB /* Fonts */,
+				38A9FAFD1EDBBB3A00D241A8 /* images */,
+			);
+			path = frender;
+			sourceTree = "<group>";
+		};
+		386090291EB542B4004226BB /* frenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3860902A1EB542B4004226BB /* frenderTests.swift */,
+				3860902C1EB542B4004226BB /* Info.plist */,
+			);
+			path = frenderTests;
+			sourceTree = "<group>";
+		};
+		386090341EB542B4004226BB /* frenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				386090351EB542B4004226BB /* frenderUITests.swift */,
+				386090371EB542B4004226BB /* Info.plist */,
+			);
+			path = frenderUITests;
+			sourceTree = "<group>";
+		};
+		3860904C1ECE7D98004226BB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				386090171EB542B4004226BB /* LoginViewController.swift */,
+				386090191EB542B4004226BB /* LoginView.storyboard */,
+				38E878BA1EE50409002167BB /* UIImage+Gif.swift */,
+				38A9FB2B1EDFB03C00D241A8 /* TestLoginView.swift */,
+				38E878B81EE3AD08002167BB /* tsesttst.png */,
+				38035ADC1EE35BD60064D9C8 /* IntroViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		3860904D1ECE7DA2004226BB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				38A9FB131EDF786000D241A8 /* SWRevealViewController */,
+				38A9FB0C1EDCCB3400D241A8 /* EventItem.swift */,
+				386090481ECE7D05004226BB /* MainView.storyboard */,
+				38A9FB0A1EDBC5C000D241A8 /* MainViewController.swift */,
+				38A9FB0F1EDCEA7B00D241A8 /* MainViewTableCell.swift */,
+				38A9FB111EDF776F00D241A8 /* MainMenuViewController.swift */,
+				385486E11EE104EF006BF51D /* TestViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		386090521ECFCDBE004226BB /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				386090501ECFCDB3004226BB /* EventViewController.swift */,
+				3860904E1ECFCDA6004226BB /* EventView.storyboard */,
+			);
+			name = Event;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		38A9FAFD1EDBBB3A00D241A8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				38E8790B1EECEA37002167BB /* icon_camera.png */,
+				38E879071EEC84D6002167BB /* profile_testpic.jpg */,
+				38E878B61EE3AB62002167BB /* ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png */,
+				383978EF1EE3965E004FFD1D /* google_icon.png */,
+				385486D91EE10310006BF51D /* edc_test3.jpg */,
+				383978E91EE3758C004FFD1D /* gradiant1.png */,
+				385486E31EE10582006BF51D /* lolla2.jpg */,
+				383978EB1EE3932D004FFD1D /* facebook_icon.png */,
+				385486DF1EE1047E006BF51D /* test1.png */,
+				385486DA1EE10310006BF51D /* edc_test1.jpg */,
+				38A9FAFE1EDBBBE900D241A8 /* test.png */,
+				38B2CAB91ED91451009814DE /* fam2.jpg */,
+				38A9FB201EDF976F00D241A8 /* profile_pic.png */,
+				385486DD1EE103B5006BF51D /* gra1.png */,
+				38A9FB271EDFACEF00D241A8 /* googlelogin.png */,
+				38A9FB281EDFACEF00D241A8 /* fbpic.png */,
+				38A9FB231EDFA43800D241A8 /* Circled Female User-50.png */,
+				38A9FB1E1EDF944300D241A8 /* icon_options_white30.png */,
+				38A9FB061EDBC39F00D241A8 /* icon_bluecircle.png */,
+				38A9FB251EDFA46C00D241A8 /* Message-50.png */,
+				38A9FAF51EDBB6F800D241A8 /* icon_group2.png */,
+				38A9FB001EDBC2C300D241A8 /* icon_notif.png */,
+				38A9FB081EDBC4B200D241A8 /* icon_options_white.png */,
+				38A9FB011EDBC2C300D241A8 /* icon_home.png */,
+				38A9FB021EDBC2C300D241A8 /* icon_profile.png */,
+				38A9FAFB1EDBBB3100D241A8 /* icon_options.png */,
+				38A9FAF61EDBB6F800D241A8 /* individual-icon-17729.png */,
+				386090431EB547E0004226BB /* festival_Front.jpg */,
+				38B2CAB51ED14E37009814DE /* festival_Front_blur.jpg */,
+				38B2CAB71ED912E2009814DE /* camp2_blur.jpg */,
+				38B2CAB11ED14D13009814DE /* crowd2_blur.jpg */,
+				38B2CAB21ED14D13009814DE /* crowd1_blur.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		38A9FB0E1EDCCB6A00D241A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		38A9FB131EDF786000D241A8 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				38A9FB151EDF788000D241A8 /* SWRevealViewController.h */,
+				38A9FB161EDF788000D241A8 /* SWRevealViewController.m */,
+				38A9FB141EDF787F00D241A8 /* frender-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		38A9FB2D1EE0E6C000D241A8 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				38A9FB2E1EE0E6D200D241A8 /* ChatViewController.swift */,
+				38A9FB301EE0E70C00D241A8 /* ChatView.storyboard */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		38E878AF1EE3A205002167BB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				38E878B21EE3A2B6002167BB /* Peace Sans.otf */,
+				38A9FB221EDF982300D241A8 /* Dense-Regular.otf */,
+				38E878AE1EE3A200002167BB /* Knile-Regular.otf */,
+				38B2CABC1ED916A7009814DE /* Anja Eliane accent002.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		38E878FC1EEC7A77002167BB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				38E878FA1EEC7A6E002167BB /* ProfileView.storyboard */,
+				38E878F81EEC7A5F002167BB /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		38E879011EEC7AB0002167BB /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				38E878FF1EEC7AA4002167BB /* NotificationsView.swift */,
+				38E878FD1EEC7A94002167BB /* NotificationsViewController.swift */,
+			);
+			name = Notifications;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		38E879061EEC7DB3002167BB /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				38E879021EEC7AC4002167BB /* CreateGroupViewController.swift */,
+				38E879091EECE8FB002167BB /* GroupView.storyboard */,
+				38A629AC1EEDA7AB003E57BD /* GroupViewController.swift */,
+			);
+			name = Groups;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DD901D02FCF4A4A5140AF58B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBA0389BECC4135FCEEC0CD2 /* Pods_frender.framework */,
+				AA2E983FC295905DAA0E9538 /* Pods_frenderTests.framework */,
+				1BAD3A4A5D51A5B254966C26 /* Pods_frenderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2D921341D647305638AD587 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF9A37B6EE2F695410CB49F /* Pods-frender.debug.xcconfig */,
+				10C1DEA7917E731473BB91EC /* Pods-frender.release.xcconfig */,
+				DE1E4A4507469727900D6FA8 /* Pods-frenderTests.debug.xcconfig */,
+				8889EA336E7158AB36D78AEC /* Pods-frenderTests.release.xcconfig */,
+				DEDFBF359F1A863607080AC5 /* Pods-frenderUITests.debug.xcconfig */,
+				91BC273912DF9044234C4D41 /* Pods-frenderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		386090111EB542B4004226BB /* frender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3860903A1EB542B4004226BB /* Build configuration list for PBXNativeTarget "frender" */;
+			buildPhases = (
+				B8B85E7AD22C497E7FF4595E /* [CP] Check Pods Manifest.lock */,
+				3860900E1EB542B4004226BB /* Sources */,
+				3860900F1EB542B4004226BB /* Frameworks */,
+				386090101EB542B4004226BB /* Resources */,
+				B9735EE8958922BEC849AA5F /* [CP] Embed Pods Frameworks */,
+				B370782CAFB48AE986AEDF9A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frender;
+			productName = frender;
+			productReference = 386090121EB542B4004226BB /* frender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		386090251EB542B4004226BB /* frenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3860903D1EB542B4004226BB /* Build configuration list for PBXNativeTarget "frenderTests" */;
+			buildPhases = (
+				7FE2CB2D8523B91A02F90A17 /* [CP] Check Pods Manifest.lock */,
+				386090221EB542B4004226BB /* Sources */,
+				386090231EB542B4004226BB /* Frameworks */,
+				386090241EB542B4004226BB /* Resources */,
+				6B32C58C7ED211444F14B556 /* [CP] Embed Pods Frameworks */,
+				49437AE81FE8A617EEE157BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386090281EB542B4004226BB /* PBXTargetDependency */,
+			);
+			name = frenderTests;
+			productName = frenderTests;
+			productReference = 386090261EB542B4004226BB /* frenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		386090301EB542B4004226BB /* frenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386090401EB542B4004226BB /* Build configuration list for PBXNativeTarget "frenderUITests" */;
+			buildPhases = (
+				086331D8B603ED26B56B0C63 /* [CP] Check Pods Manifest.lock */,
+				3860902D1EB542B4004226BB /* Sources */,
+				3860902E1EB542B4004226BB /* Frameworks */,
+				3860902F1EB542B4004226BB /* Resources */,
+				4854338AB91F473650541E13 /* [CP] Embed Pods Frameworks */,
+				9C1490CCBD5E5E130386D2FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386090331EB542B4004226BB /* PBXTargetDependency */,
+			);
+			name = frenderUITests;
+			productName = frenderUITests;
+			productReference = 386090311EB542B4004226BB /* frenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3860900A1EB542B3004226BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Caelan Dailey";
+				TargetAttributes = {
+					386090111EB542B4004226BB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N3VBXEQWW6;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					386090251EB542B4004226BB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N3VBXEQWW6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 386090111EB542B4004226BB;
+					};
+					386090301EB542B4004226BB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N3VBXEQWW6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 386090111EB542B4004226BB;
+					};
+				};
+			};
+			buildConfigurationList = 3860900D1EB542B3004226BB /* Build configuration list for PBXProject "frender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 386090091EB542B3004226BB;
+			productRefGroup = 386090131EB542B4004226BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				386090111EB542B4004226BB /* frender */,
+				386090251EB542B4004226BB /* frenderTests */,
+				386090301EB542B4004226BB /* frenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		386090101EB542B4004226BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E878B31EE3A2BF002167BB /* Peace Sans.otf in Resources */,
+				38E878B01EE3A278002167BB /* Dense-Regular.otf in Resources */,
+				38E878B11EE3A278002167BB /* Knile-Regular.otf in Resources */,
+				38A9FB051EDBC2C300D241A8 /* icon_profile.png in Resources */,
+				383978EA1EE3758C004FFD1D /* gradiant1.png in Resources */,
+				38E8790C1EECEA37002167BB /* icon_camera.png in Resources */,
+				38A9FAFC1EDBBB3100D241A8 /* icon_options.png in Resources */,
+				38A9FB041EDBC2C300D241A8 /* icon_home.png in Resources */,
+				38B2CABD1ED91AC2009814DE /* Anja Eliane accent002.ttf in Resources */,
+				38B2CAB61ED14E37009814DE /* festival_Front_blur.jpg in Resources */,
+				38A9FB311EE0E70C00D241A8 /* ChatView.storyboard in Resources */,
+				38B2CABA1ED91451009814DE /* fam2.jpg in Resources */,
+				38A9FB1F1EDF944300D241A8 /* icon_options_white30.png in Resources */,
+				385486DC1EE10310006BF51D /* edc_test1.jpg in Resources */,
+				38E878B71EE3AB62002167BB /* ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png in Resources */,
+				383978EC1EE3932D004FFD1D /* facebook_icon.png in Resources */,
+				38A9FB211EDF976F00D241A8 /* profile_pic.png in Resources */,
+				38A9FB291EDFACEF00D241A8 /* googlelogin.png in Resources */,
+				386090201EB542B4004226BB /* LaunchScreen.storyboard in Resources */,
+				3860901D1EB542B4004226BB /* Assets.xcassets in Resources */,
+				38E878FB1EEC7A6E002167BB /* ProfileView.storyboard in Resources */,
+				38A9FB071EDBC39F00D241A8 /* icon_bluecircle.png in Resources */,
+				386090461ECD2E3F004226BB /* GoogleService-Info.plist in Resources */,
+				38E879081EEC84D6002167BB /* profile_testpic.jpg in Resources */,
+				38B2CAB31ED14D13009814DE /* crowd2_blur.jpg in Resources */,
+				383978F01EE3965E004FFD1D /* google_icon.png in Resources */,
+				385486E01EE1047E006BF51D /* test1.png in Resources */,
+				3860904F1ECFCDA6004226BB /* EventView.storyboard in Resources */,
+				38E878B91EE3AD08002167BB /* tsesttst.png in Resources */,
+				38A9FAF71EDBB6F800D241A8 /* icon_group2.png in Resources */,
+				385486DB1EE10310006BF51D /* edc_test3.jpg in Resources */,
+				38A9FAFF1EDBBBE900D241A8 /* test.png in Resources */,
+				38B2CAB81ED912E2009814DE /* camp2_blur.jpg in Resources */,
+				38B2CAB41ED14D13009814DE /* crowd1_blur.jpg in Resources */,
+				38A9FB031EDBC2C300D241A8 /* icon_notif.png in Resources */,
+				3860901B1EB542B4004226BB /* LoginView.storyboard in Resources */,
+				38E8790A1EECE8FB002167BB /* GroupView.storyboard in Resources */,
+				385486E41EE10582006BF51D /* lolla2.jpg in Resources */,
+				385486DE1EE103B5006BF51D /* gra1.png in Resources */,
+				38A9FB2A1EDFACEF00D241A8 /* fbpic.png in Resources */,
+				38A9FB091EDBC4B200D241A8 /* icon_options_white.png in Resources */,
+				38A9FAF81EDBB6F800D241A8 /* individual-icon-17729.png in Resources */,
+				386090491ECE7D05004226BB /* MainView.storyboard in Resources */,
+				38A9FB241EDFA43800D241A8 /* Circled Female User-50.png in Resources */,
+				386090441EB547E0004226BB /* festival_Front.jpg in Resources */,
+				38A9FB261EDFA46C00D241A8 /* Message-50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386090241EB542B4004226BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3860902F1EB542B4004226BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		086331D8B603ED26B56B0C63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4854338AB91F473650541E13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frenderUITests/Pods-frenderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49437AE81FE8A617EEE157BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frenderTests/Pods-frenderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B32C58C7ED211444F14B556 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frenderTests/Pods-frenderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE2CB2D8523B91A02F90A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1490CCBD5E5E130386D2FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frenderUITests/Pods-frenderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B370782CAFB48AE986AEDF9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frender/Pods-frender-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B85E7AD22C497E7FF4595E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9735EE8958922BEC849AA5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frender/Pods-frender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3860900E1EB542B4004226BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A629AD1EEDA7AB003E57BD /* GroupViewController.swift in Sources */,
+				38E878FE1EEC7A94002167BB /* NotificationsViewController.swift in Sources */,
+				38035ADD1EE35BD60064D9C8 /* IntroViewController.swift in Sources */,
+				38A9FB121EDF776F00D241A8 /* MainMenuViewController.swift in Sources */,
+				38A9FB0B1EDBC5C000D241A8 /* MainViewController.swift in Sources */,
+				385486E21EE104EF006BF51D /* TestViewController.swift in Sources */,
+				38E878F91EEC7A5F002167BB /* ProfileViewController.swift in Sources */,
+				38E879031EEC7AC4002167BB /* CreateGroupViewController.swift in Sources */,
+				38E878BB1EE50409002167BB /* UIImage+Gif.swift in Sources */,
+				38E879001EEC7AA4002167BB /* NotificationsView.swift in Sources */,
+				38A9FB2F1EE0E6D200D241A8 /* ChatViewController.swift in Sources */,
+				386090511ECFCDB3004226BB /* EventViewController.swift in Sources */,
+				38A9FB101EDCEA7B00D241A8 /* MainViewTableCell.swift in Sources */,
+				38A9FB171EDF788000D241A8 /* SWRevealViewController.m in Sources */,
+				386090181EB542B4004226BB /* LoginViewController.swift in Sources */,
+				386090161EB542B4004226BB /* AppDelegate.swift in Sources */,
+				38A9FB2C1EDFB03C00D241A8 /* TestLoginView.swift in Sources */,
+				38A9FB0D1EDCCB3400D241A8 /* EventItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386090221EB542B4004226BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3860902B1EB542B4004226BB /* frenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3860902D1EB542B4004226BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386090361EB542B4004226BB /* frenderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		386090281EB542B4004226BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386090111EB542B4004226BB /* frender */;
+			targetProxy = 386090271EB542B4004226BB /* PBXContainerItemProxy */;
+		};
+		386090331EB542B4004226BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386090111EB542B4004226BB /* frender */;
+			targetProxy = 386090321EB542B4004226BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		386090191EB542B4004226BB /* LoginView.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3860901A1EB542B4004226BB /* Base */,
+			);
+			name = LoginView.storyboard;
+			sourceTree = "<group>";
+		};
+		3860901E1EB542B4004226BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3860901F1EB542B4004226BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		386090381EB542B4004226BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		386090391EB542B4004226BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3860903B1EB542B4004226BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF9A37B6EE2F695410CB49F /* Pods-frender.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = frender/frender.entitlements;
+				DEVELOPMENT_TEAM = N3VBXEQWW6;
+				INFOPLIST_FILE = frender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csd.frender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "frender/frender-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3860903C1EB542B4004226BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C1DEA7917E731473BB91EC /* Pods-frender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = frender/frender.entitlements;
+				DEVELOPMENT_TEAM = N3VBXEQWW6;
+				INFOPLIST_FILE = frender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csd.frender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "frender/frender-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3860903E1EB542B4004226BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1E4A4507469727900D6FA8 /* Pods-frenderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N3VBXEQWW6;
+				INFOPLIST_FILE = frenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csd.frenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frender.app/frender";
+			};
+			name = Debug;
+		};
+		3860903F1EB542B4004226BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8889EA336E7158AB36D78AEC /* Pods-frenderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N3VBXEQWW6;
+				INFOPLIST_FILE = frenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csd.frenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frender.app/frender";
+			};
+			name = Release;
+		};
+		386090411EB542B4004226BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDFBF359F1A863607080AC5 /* Pods-frenderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N3VBXEQWW6;
+				INFOPLIST_FILE = frenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csd.frenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = frender;
+			};
+			name = Debug;
+		};
+		386090421EB542B4004226BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BC273912DF9044234C4D41 /* Pods-frenderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N3VBXEQWW6;
+				INFOPLIST_FILE = frenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csd.frenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = frender;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3860900D1EB542B3004226BB /* Build configuration list for PBXProject "frender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386090381EB542B4004226BB /* Debug */,
+				386090391EB542B4004226BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3860903A1EB542B4004226BB /* Build configuration list for PBXNativeTarget "frender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3860903B1EB542B4004226BB /* Debug */,
+				3860903C1EB542B4004226BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3860903D1EB542B4004226BB /* Build configuration list for PBXNativeTarget "frenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3860903E1EB542B4004226BB /* Debug */,
+				3860903F1EB542B4004226BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386090401EB542B4004226BB /* Build configuration list for PBXNativeTarget "frenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386090411EB542B4004226BB /* Debug */,
+				386090421EB542B4004226BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3860900A1EB542B3004226BB /* Project object */;
+}
