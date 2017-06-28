@@ -20,4 +20,5 @@ Personal Project. Music festival social media application written in Swift.
 - Push notifications
 - Update sidemenu on mainscreen
 
- ![alt text](https://github.com/caelandailey/FrenderApp/blob/master/Intro.gif)
+
+<img src="https://github.com/caelandailey/FrenderApp/blob/master/Intro.gif" width="375px" height="667px" />
