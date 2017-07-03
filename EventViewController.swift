@@ -21,7 +21,7 @@ class EventViewController: UIViewController
     {
         
        
-        goToCreateGroupView()
+        goToChatView()
     }
     
     @IBAction func test2()

@@ -95,7 +95,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJP-S8-hPc">
                                         <rect key="frame" x="164" y="129" width="94" height="106"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Create group"/>
+                                        <state key="normal" title="Chat"/>
                                         <connections>
                                             <action selector="test" destination="Ilr-tN-urY" eventType="touchUpInside" id="NCD-Ga-o7i"/>
                                         </connections>
