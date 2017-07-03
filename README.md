@@ -1,12 +1,23 @@
 # FrenderApp
 Personal Project. Music festival social media application written in Swift.
 
+<img src="https://github.com/caelandailey/FrenderApp/blob/master/Intro.gif" width="375px" height="667px" />
+
+# How it works: Firebase
+- Loads and stores data using Firebase database
+- Loads and stores images using Firebase storage
+- Authenticate users
+- Send push notifications (coming soon)
+
 # Current features
 - Facebook Login
 - Google Login
 - Login animation
-- Loads images from firebase database
-- Loads festival list from firebase database
+- Sidebar menu
+- Loads festival list from firebase database 
+- Loads images from firebase storage into table
+- Images go to the festival event page
+- Search festivals
 - Real time chat
 
 # Future features
@@ -14,10 +25,9 @@ Personal Project. Music festival social media application written in Swift.
 - Develop festival pages
 - Profiles
 - Edit profiles
-- Design groups page
+- Design group page
 - Develop group page
 - Notifications page
 - Push notifications
 - Update sidemenu on mainscreen
 
- ![alt text](https://github.com/caelandailey/FrenderApp/blob/master/Intro.gif)
