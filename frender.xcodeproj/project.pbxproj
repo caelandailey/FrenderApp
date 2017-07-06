@@ -140,7 +140,7 @@
 		38A9FB061EDBC39F00D241A8 /* icon_bluecircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bluecircle.png; sourceTree = "<group>"; };
 		38A9FB081EDBC4B200D241A8 /* icon_options_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_options_white.png; sourceTree = "<group>"; };
 		38A9FB0A1EDBC5C000D241A8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		38A9FB0C1EDCCB3400D241A8 /* EventItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventItem.swift; path = ../EventItem.swift; sourceTree = "<group>"; };
+		38A9FB0C1EDCCB3400D241A8 /* EventItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventItem.swift; sourceTree = "<group>"; };
 		38A9FB0F1EDCEA7B00D241A8 /* MainViewTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewTableCell.swift; sourceTree = "<group>"; };
 		38A9FB111EDF776F00D241A8 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		38A9FB141EDF787F00D241A8 /* frender-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "frender-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 		38E878AE1EE3A200002167BB /* Knile-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Knile-Regular.otf"; sourceTree = "<group>"; };
 		38E878B21EE3A2B6002167BB /* Peace Sans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Peace Sans.otf"; sourceTree = "<group>"; };
 		38E878B61EE3AB62002167BB /* ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png"; sourceTree = "<group>"; };
-		38E878B81EE3AD08002167BB /* tsesttst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tsesttst.png; path = ../../../Downloads/tsesttst.png; sourceTree = "<group>"; };
+		38E878B81EE3AD08002167BB /* tsesttst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tsesttst.png; path = ../../../../Downloads/tsesttst.png; sourceTree = "<group>"; };
 		38E878BA1EE50409002167BB /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		38E878F81EEC7A5F002167BB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		38E878FA1EEC7A6E002167BB /* ProfileView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
@@ -218,19 +218,19 @@
 				381258241EECEDA40044CDF1 /* JVFloatLabeledTextField.h */,
 				381258251EECEDA40044CDF1 /* JVFloatLabeledTextView.h */,
 			);
-			name = FloatingTextField;
+			path = FloatingTextField;
 			sourceTree = "<group>";
 		};
 		386090091EB542B3004226BB = {
 			isa = PBXGroup;
 			children = (
+				DD901D02FCF4A4A5140AF58B /* Frameworks */,
 				38A9FB0E1EDCCB6A00D241A8 /* Models */,
+				E2D921341D647305638AD587 /* Pods */,
+				386090131EB542B4004226BB /* Products */,
 				386090141EB542B4004226BB /* frender */,
 				386090291EB542B4004226BB /* frenderTests */,
 				386090341EB542B4004226BB /* frenderUITests */,
-				386090131EB542B4004226BB /* Products */,
-				E2D921341D647305638AD587 /* Pods */,
-				DD901D02FCF4A4A5140AF58B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,22 +247,22 @@
 		386090141EB542B4004226BB /* frender */ = {
 			isa = PBXGroup;
 			children = (
-				386090471ECE7085004226BB /* frender.entitlements */,
-				386090151EB542B4004226BB /* AppDelegate.swift */,
-				381258261EECEDAC0044CDF1 /* FloatingTextField */,
-				38E879061EEC7DB3002167BB /* Groups */,
-				38E879011EEC7AB0002167BB /* Notifications */,
-				38E878FC1EEC7A77002167BB /* Profile */,
 				38A9FB2D1EE0E6C000D241A8 /* Chat */,
 				386090521ECFCDBE004226BB /* Event */,
-				3860904D1ECE7DA2004226BB /* Main */,
+				381258261EECEDAC0044CDF1 /* FloatingTextField */,
+				38E878AF1EE3A205002167BB /* Fonts */,
+				38E879061EEC7DB3002167BB /* Groups */,
 				3860904C1ECE7D98004226BB /* Login */,
+				3860904D1ECE7DA2004226BB /* Main */,
+				38E879011EEC7AB0002167BB /* Notifications */,
+				38E878FC1EEC7A77002167BB /* Profile */,
+				38A9FAFD1EDBBB3A00D241A8 /* images */,
+				386090151EB542B4004226BB /* AppDelegate.swift */,
 				3860901C1EB542B4004226BB /* Assets.xcassets */,
-				3860901E1EB542B4004226BB /* LaunchScreen.storyboard */,
 				386090451ECD2E3F004226BB /* GoogleService-Info.plist */,
 				386090211EB542B4004226BB /* Info.plist */,
-				38E878AF1EE3A205002167BB /* Fonts */,
-				38A9FAFD1EDBBB3A00D241A8 /* images */,
+				3860901E1EB542B4004226BB /* LaunchScreen.storyboard */,
+				386090471ECE7085004226BB /* frender.entitlements */,
 			);
 			path = frender;
 			sourceTree = "<group>";
@@ -270,8 +270,8 @@
 		386090291EB542B4004226BB /* frenderTests */ = {
 			isa = PBXGroup;
 			children = (
-				3860902A1EB542B4004226BB /* frenderTests.swift */,
 				3860902C1EB542B4004226BB /* Info.plist */,
+				3860902A1EB542B4004226BB /* frenderTests.swift */,
 			);
 			path = frenderTests;
 			sourceTree = "<group>";
@@ -279,8 +279,8 @@
 		386090341EB542B4004226BB /* frenderUITests */ = {
 			isa = PBXGroup;
 			children = (
-				386090351EB542B4004226BB /* frenderUITests.swift */,
 				386090371EB542B4004226BB /* Info.plist */,
+				386090351EB542B4004226BB /* frenderUITests.swift */,
 			);
 			path = frenderUITests;
 			sourceTree = "<group>";
@@ -288,14 +288,14 @@
 		3860904C1ECE7D98004226BB /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				386090171EB542B4004226BB /* LoginViewController.swift */,
-				386090191EB542B4004226BB /* LoginView.storyboard */,
-				38E878BA1EE50409002167BB /* UIImage+Gif.swift */,
-				38A9FB2B1EDFB03C00D241A8 /* TestLoginView.swift */,
-				38E878B81EE3AD08002167BB /* tsesttst.png */,
 				38035ADC1EE35BD60064D9C8 /* IntroViewController.swift */,
+				386090191EB542B4004226BB /* LoginView.storyboard */,
+				386090171EB542B4004226BB /* LoginViewController.swift */,
+				38A9FB2B1EDFB03C00D241A8 /* TestLoginView.swift */,
+				38E878BA1EE50409002167BB /* UIImage+Gif.swift */,
+				38E878B81EE3AD08002167BB /* tsesttst.png */,
 			);
-			name = Login;
+			path = Login;
 			sourceTree = "<group>";
 		};
 		3860904D1ECE7DA2004226BB /* Main */ = {
@@ -303,69 +303,68 @@
 			children = (
 				38A9FB131EDF786000D241A8 /* SWRevealViewController */,
 				38A9FB0C1EDCCB3400D241A8 /* EventItem.swift */,
+				38A9FB111EDF776F00D241A8 /* MainMenuViewController.swift */,
 				386090481ECE7D05004226BB /* MainView.storyboard */,
 				38A9FB0A1EDBC5C000D241A8 /* MainViewController.swift */,
 				38A9FB0F1EDCEA7B00D241A8 /* MainViewTableCell.swift */,
-				38A9FB111EDF776F00D241A8 /* MainMenuViewController.swift */,
 				385486E11EE104EF006BF51D /* TestViewController.swift */,
 			);
-			name = Main;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		386090521ECFCDBE004226BB /* Event */ = {
 			isa = PBXGroup;
 			children = (
-				386090501ECFCDB3004226BB /* EventViewController.swift */,
 				3860904E1ECFCDA6004226BB /* EventView.storyboard */,
+				386090501ECFCDB3004226BB /* EventViewController.swift */,
 			);
-			name = Event;
-			path = ..;
+			path = Event;
 			sourceTree = "<group>";
 		};
 		38A9FAFD1EDBBB3A00D241A8 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				38E8790B1EECEA37002167BB /* icon_camera.png */,
-				38E879071EEC84D6002167BB /* profile_testpic.jpg */,
-				38E878B61EE3AB62002167BB /* ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png */,
-				383978EF1EE3965E004FFD1D /* google_icon.png */,
-				385486D91EE10310006BF51D /* edc_test3.jpg */,
-				383978E91EE3758C004FFD1D /* gradiant1.png */,
-				385486E31EE10582006BF51D /* lolla2.jpg */,
-				383978EB1EE3932D004FFD1D /* facebook_icon.png */,
-				385486DF1EE1047E006BF51D /* test1.png */,
-				385486DA1EE10310006BF51D /* edc_test1.jpg */,
-				38A9FAFE1EDBBBE900D241A8 /* test.png */,
-				38B2CAB91ED91451009814DE /* fam2.jpg */,
-				38A9FB201EDF976F00D241A8 /* profile_pic.png */,
-				385486DD1EE103B5006BF51D /* gra1.png */,
-				38A9FB271EDFACEF00D241A8 /* googlelogin.png */,
-				38A9FB281EDFACEF00D241A8 /* fbpic.png */,
 				38A9FB231EDFA43800D241A8 /* Circled Female User-50.png */,
-				38A9FB1E1EDF944300D241A8 /* icon_options_white30.png */,
-				38A9FB061EDBC39F00D241A8 /* icon_bluecircle.png */,
 				38A9FB251EDFA46C00D241A8 /* Message-50.png */,
-				38A9FAF51EDBB6F800D241A8 /* icon_group2.png */,
-				38A9FB001EDBC2C300D241A8 /* icon_notif.png */,
-				38A9FB081EDBC4B200D241A8 /* icon_options_white.png */,
-				38A9FB011EDBC2C300D241A8 /* icon_home.png */,
-				38A9FB021EDBC2C300D241A8 /* icon_profile.png */,
-				38A9FAFB1EDBBB3100D241A8 /* icon_options.png */,
-				38A9FAF61EDBB6F800D241A8 /* individual-icon-17729.png */,
+				38B2CAB71ED912E2009814DE /* camp2_blur.jpg */,
+				38B2CAB21ED14D13009814DE /* crowd1_blur.jpg */,
+				38B2CAB11ED14D13009814DE /* crowd2_blur.jpg */,
+				385486DA1EE10310006BF51D /* edc_test1.jpg */,
+				385486D91EE10310006BF51D /* edc_test3.jpg */,
+				383978EB1EE3932D004FFD1D /* facebook_icon.png */,
+				38B2CAB91ED91451009814DE /* fam2.jpg */,
+				38A9FB281EDFACEF00D241A8 /* fbpic.png */,
 				386090431EB547E0004226BB /* festival_Front.jpg */,
 				38B2CAB51ED14E37009814DE /* festival_Front_blur.jpg */,
-				38B2CAB71ED912E2009814DE /* camp2_blur.jpg */,
-				38B2CAB11ED14D13009814DE /* crowd2_blur.jpg */,
-				38B2CAB21ED14D13009814DE /* crowd1_blur.jpg */,
+				383978EF1EE3965E004FFD1D /* google_icon.png */,
+				38A9FB271EDFACEF00D241A8 /* googlelogin.png */,
+				385486DD1EE103B5006BF51D /* gra1.png */,
+				383978E91EE3758C004FFD1D /* gradiant1.png */,
+				38A9FB061EDBC39F00D241A8 /* icon_bluecircle.png */,
+				38E8790B1EECEA37002167BB /* icon_camera.png */,
+				38A9FAF51EDBB6F800D241A8 /* icon_group2.png */,
+				38A9FB011EDBC2C300D241A8 /* icon_home.png */,
+				38A9FB001EDBC2C300D241A8 /* icon_notif.png */,
+				38A9FAFB1EDBBB3100D241A8 /* icon_options.png */,
+				38A9FB081EDBC4B200D241A8 /* icon_options_white.png */,
+				38A9FB1E1EDF944300D241A8 /* icon_options_white30.png */,
+				38A9FB021EDBC2C300D241A8 /* icon_profile.png */,
+				38A9FAF61EDBB6F800D241A8 /* individual-icon-17729.png */,
+				385486E31EE10582006BF51D /* lolla2.jpg */,
+				38E878B61EE3AB62002167BB /* ocha_camp-idp-refugee-camp_flat-rounded-square-white-on-blue-gray_512x512.png */,
+				38A9FB201EDF976F00D241A8 /* profile_pic.png */,
+				38E879071EEC84D6002167BB /* profile_testpic.jpg */,
+				38A9FAFE1EDBBBE900D241A8 /* test.png */,
+				385486DF1EE1047E006BF51D /* test1.png */,
 			);
-			name = images;
+			path = images;
 			sourceTree = "<group>";
 		};
 		38A9FB0E1EDCCB6A00D241A8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		38A9FB131EDF786000D241A8 /* SWRevealViewController */ = {
@@ -375,27 +374,27 @@
 				38A9FB161EDF788000D241A8 /* SWRevealViewController.m */,
 				38A9FB141EDF787F00D241A8 /* frender-Bridging-Header.h */,
 			);
-			name = SWRevealViewController;
+			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 		38A9FB2D1EE0E6C000D241A8 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				38A9FB2E1EE0E6D200D241A8 /* ChatViewController.swift */,
 				38A9FB301EE0E70C00D241A8 /* ChatView.storyboard */,
+				38A9FB2E1EE0E6D200D241A8 /* ChatViewController.swift */,
 			);
-			name = Chat;
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		38E878AF1EE3A205002167BB /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				38E878B21EE3A2B6002167BB /* Peace Sans.otf */,
+				38B2CABC1ED916A7009814DE /* Anja Eliane accent002.ttf */,
 				38A9FB221EDF982300D241A8 /* Dense-Regular.otf */,
 				38E878AE1EE3A200002167BB /* Knile-Regular.otf */,
-				38B2CABC1ED916A7009814DE /* Anja Eliane accent002.ttf */,
+				38E878B21EE3A2B6002167BB /* Peace Sans.otf */,
 			);
-			name = Fonts;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		38E878FC1EEC7A77002167BB /* Profile */ = {
@@ -404,8 +403,7 @@
 				38E878FA1EEC7A6E002167BB /* ProfileView.storyboard */,
 				38E878F81EEC7A5F002167BB /* ProfileViewController.swift */,
 			);
-			name = Profile;
-			path = ..;
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		38E879011EEC7AB0002167BB /* Notifications */ = {
@@ -414,8 +412,7 @@
 				38E878FF1EEC7AA4002167BB /* NotificationsView.swift */,
 				38E878FD1EEC7A94002167BB /* NotificationsViewController.swift */,
 			);
-			name = Notifications;
-			path = ..;
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 		38E879061EEC7DB3002167BB /* Groups */ = {
@@ -425,8 +422,7 @@
 				38E879091EECE8FB002167BB /* GroupView.storyboard */,
 				38A629AC1EEDA7AB003E57BD /* GroupViewController.swift */,
 			);
-			name = Groups;
-			path = ..;
+			path = Groups;
 			sourceTree = "<group>";
 		};
 		DD901D02FCF4A4A5140AF58B /* Frameworks */ = {
@@ -844,6 +840,7 @@
 				3860901A1EB542B4004226BB /* Base */,
 			);
 			name = LoginView.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		3860901E1EB542B4004226BB /* LaunchScreen.storyboard */ = {
@@ -852,6 +849,7 @@
 				3860901F1EB542B4004226BB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -963,7 +961,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = csd.frender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "frender/frender-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "frender/Main/SWRevealViewController/frender-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -982,7 +980,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = csd.frender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "frender/frender-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "frender/Main/SWRevealViewController/frender-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

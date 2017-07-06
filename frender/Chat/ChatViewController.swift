@@ -226,6 +226,7 @@ class ChatViewController: JSQMessagesViewController {
         super.textViewDidChange(textView)
         // If the text is not empty, the user is typing
         isTyping = textView.text != ""
+        
     }
     
     private lazy var userIsTypingRef: DatabaseReference =
@@ -270,6 +271,7 @@ class ChatViewController: JSQMessagesViewController {
         observeMessages()
         collectionView!.collectionViewLayout.incomingAvatarViewSize = CGSize.zero
         collectionView!.collectionViewLayout.outgoingAvatarViewSize = CGSize.zero
+        collectionView.backgroundColor = UIColor.lightGray
     }
     
     private func setupOutgoingBubble() -> JSQMessagesBubbleImage {

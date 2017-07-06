@@ -420,11 +420,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "frender/ChatViewController.swift"
-            timestampString = "518400820.459574"
+            timestampString = "520746959.087872"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "328"
-            endingLineNumber = "328"
+            startingLineNumber = "330"
+            endingLineNumber = "330"
             landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -571,38 +571,6 @@
             endingLineNumber = "30"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "frender.GroupViewController.viewDidLoad () -&gt; ()"
-                  moduleName = "frender"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/caelandailey/Desktop/FrenderApp/GroupViewController.swift"
-                  timestampString = "520745564.220675"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "693">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "frender.GroupViewController.(viewDidLoad () -&gt; ()).(closure #1)"
-                  moduleName = "frender"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/caelandailey/Desktop/FrenderApp/GroupViewController.swift"
-                  timestampString = "520745564.223985"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "26">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

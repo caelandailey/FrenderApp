@@ -43,7 +43,8 @@ class EventViewController: UIViewController
         let chatVc = mainStoryboard.instantiateViewController(withIdentifier: "ChatView") as! JSQMessagesViewController
         chatVc.senderDisplayName = "Caelan"
         
-        chatVc.senderId = Auth.auth().currentUser?.uid
+        //chatVc.senderId = Auth.auth().currentUser?.uid
+        chatVc.senderId = "35235"
         self.present(chatVc, animated: true, completion: nil)
     }
     
